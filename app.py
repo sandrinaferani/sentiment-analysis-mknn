@@ -1,7 +1,7 @@
 from lib import *
 from model import *
 from preprocessing import *
-from hasil_visualisasi import *
+from hasil_visualisasi import tampilkan_hasil_statis
 
 st.set_page_config(page_title="MKNN Sentiment Analysis", layout="wide")
 
