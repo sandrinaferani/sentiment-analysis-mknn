@@ -41,7 +41,7 @@ if uploaded_files:
     is_single_file = len(uploaded_files) == 1
     sort_by_sentimen = False
     if not is_single_file:
-        sort_by_sentimen = st.checkbox("🔼 Peringkatkan berdasarkan sentimen positif")
+        sort_by_sentimen = st.checkbox("🔼 Peringkatkan")
 
     file_results = []
 
