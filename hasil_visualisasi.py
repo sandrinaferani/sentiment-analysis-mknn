@@ -24,7 +24,7 @@ def tampilkan_hasil_statis():
             # Pie Chart Persentase
             chart_path = f"user/persentase-2025-april-{minggu_ke}-{filekey}.png"
             if os.path.exists(chart_path):
-                st.image(chart_path, caption="Distribusi Sentimen", use_column_width=True)
+                st.image(chart_path, caption="Distribusi Sentimen", use_container_width=True)
             else:
                 st.warning("Grafik persentase tidak ditemukan.")
 
@@ -63,6 +63,6 @@ def tampilkan_hasil_statis():
                     wc_path = f"user/{sentimen}-2025-april-{minggu_ke}-{filekey}.png"
                     if os.path.exists(wc_path):
                         st.markdown(f"**{sentimen.capitalize()}**")
-                        st.image(Image.open(wc_path), use_column_width=True)
+                        st.image(Image.open(wc_path), use_container_width=True)
                     else:
                         st.info(f"Tidak ada wordcloud untuk {sentimen}.")
