@@ -73,7 +73,7 @@ if uploaded_files:
 
         # MKNN
         with st.spinner('⚙️Tahap klasifikasi data (3/3)...'):
-            k = 5
+            k = 15
             alpha = 0.5
             validities = get_or_load_validities(X_train, y_train, k)
             y_pred = mknn(X_train, y_train, X_test, k=k, alpha=alpha, validities=validities)
