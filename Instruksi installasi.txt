@@ -1,0 +1,12 @@
+Instruksi Instalasi dan Penggunaan
+
+1. Ekstrak file yang telah diunduh.
+
+2. Buka file Python dengan nama app.py.
+
+3. - Untuk menjalankan aplikasi secara lokal buka terminal, lalu jalankan perintah :
+streamlit run app.py
+	
+   - Untuk menjalankan aplikasi langsung melalui website, klik tautan https://sentiment-analysis-mknn.streamlit.app/
+
+4. Setelah tampilan aplikasi Streamlit muncul, dapat mencobanya dengan data yang tersedia pada folder data uji coba streamlit.
